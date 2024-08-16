@@ -1,0 +1,149 @@
+body{
+    max-width: 1200px;
+}
+.navbar-brand{
+        font-family: "New Amsterdam", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 40px;
+}
+.navbar-nav{
+    margin-left: 150px;
+    gap: 20px;
+}
+li:hover{
+    cursor: pointer;
+}
+.card{
+    border-radius: 30px;
+}
+.prog-card,.banner-hold,.social-media{
+    margin: 30px;
+}
+.pro-text{
+    margin: auto;
+}
+
+.card-body-1{
+    background-image: url('./Images/hockey\ player.jpg');
+    padding: 30px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 500px;
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+    border-radius: 30px;
+}
+.card-body-2{
+    background-image: url('./Images/men\ hockey.jpg');
+    padding: 30px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 500px;
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+    border-radius: 30px;
+}
+.card-body-3{
+    background-image: url('./Images/ice\ hockey.jpg');
+    padding: 30px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 400px;
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+    border-radius: 30px;
+}
+
+.shopping{
+    margin-top:5px;
+}
+.faq{
+    width: 400px;
+    height: 400px;
+    border-radius: 30px;
+}
+
+.form-control{
+    background-color: rgb(242, 236, 236);
+    border: none;
+}
+.mess{
+    height: 40vh;
+}
+.card-img-contact{
+    height: 40%;
+    width: 40%;
+
+}
+.card-img-contact2{
+    height: 10%;
+    width: 15%;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.social-media{
+    background-color: rgb(242, 236, 236);
+    padding: 30px;
+    border-radius: 20px;
+}
+footer li,p{
+    color: gray;
+    list-style: none;
+}
+.footer-img{
+    width: 20px;
+    height: 20px;
+}
+
+
+@media  only screen and (max-width: 768px){
+    
+    .product-card{
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        align-items: center;
+    }
+    .player{
+        display: flex;
+        flex-direction: column;
+    }
+    .faq{
+        width: 200px;
+        height: 200px;
+    }
+    .client-exp{
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        align-items: center;
+    }
+    .contact-exp,.pictures{
+        display: flex;
+        flex-direction: column; 
+        margin: auto;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+    }
+    .part{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }    
+  
+}
+@media only screen and (min-width: 768px){
+    
+    .faq{
+        width: 300px;
+        height: 300px;
+    }
+    
+
+}
